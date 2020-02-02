@@ -1,0 +1,81 @@
+.red-text {
+    color: rgba(250,0,0,0.9) !important;
+}
+
+.contactTable {
+    border-collapse: collapse;
+    border: 1px solid blueviolet;
+}
+
+.text {
+    color: antiquewhite;
+}
+
+.container-fluid {
+    background-color: #000;
+    font-family: 'Eczar', serif;
+}
+
+.readText > p {
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.back {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.readText {
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    color: #eee;
+    left: 0;
+    position: absolute;
+}
+
+.footer {
+    text-align: right;
+    height: 20px;
+    color: #FFF;
+    background-color: black;
+    font-size: 10px;
+}
+
+.main-div {
+    height: 100%;
+/*    width: 80%;*/
+    background-color: black;
+}
+
+.side-div {
+    background-color: black;
+}
+
+#back1 {
+    background-image: url("img/bg1.jpg");
+}
+
+#back2 {
+    background-image: url("img/bg2.jpg");
+}
+
+#back3 {
+    background-image: url("img/bg3.jpg");
+}
+
+#back4 {
+    background-image: url("img/bg4.jpg");
+}
+
+#back5 {
+    background-image: url("img/bg6.jpg");
+    height: 670px;
+}
+
+
