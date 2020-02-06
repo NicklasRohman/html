@@ -27,6 +27,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #333333;
+    border-radius: 20%;
 }
 
 .readText {
@@ -37,6 +39,7 @@
     color: #eee;
     left: 0;
     position: absolute;
+    border-radius: 20%;
 }
 
 .footer {
@@ -57,16 +60,16 @@
     background-color: black;
 }
 
+.background-img {
+
+}
+
 #back1 {
     background-image: url("img/bg1.jpg");
 }
 
 #back2 {
     background-image: url("img/bg2.jpg");
-}
-
-#back3 {
-    background-image: url("img/bg3.jpg");
 }
 
 #back4 {
