@@ -1,3 +1,7 @@
+html {
+    background-color: black;
+}
+
 .red-text {
     color: rgba(250,0,0,0.9) !important;
 }
@@ -58,10 +62,6 @@
 
 .side-div {
     background-color: black;
-}
-
-.background-img {
-
 }
 
 #back1 {
