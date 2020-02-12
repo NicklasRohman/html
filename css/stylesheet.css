@@ -2,6 +2,10 @@ html {
     background-color: black;
 }
 
+.imageOnMe {
+    opacity: 95.0%;
+}
+
 .red-text {
     color: rgba(250,0,0,0.9) !important;
 }
