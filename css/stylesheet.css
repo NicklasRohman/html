@@ -7,6 +7,11 @@ html {
     max-height: 300px;
 }
 
+.logo_img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
 .red-text {
     color: rgba(250,0,0,0.9) !important;
 }
