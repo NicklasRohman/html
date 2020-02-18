@@ -66,12 +66,17 @@ html {
 
 .main-div {
     height: 100%;
-/*    width: 80%;*/
     background-color: black;
 }
 
 .side-div {
     background-color: black;
+}
+
+.center {
+    margin: 10%;
+    width: 100px;
+    height: 100px;
 }
 
 #back1 {
