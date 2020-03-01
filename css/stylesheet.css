@@ -93,20 +93,20 @@ html {
 }
 
 #back1 {
-    background-image: url("/css/img/bg1.jpg");
+    background-image: url("img/bg1.jpg");
 }
 
 #back2 {
-    background-image: url("/css/img/bg2.jpg");
+    background-image: url("img/bg2.jpg");
 }
 
 #back4 {
-    background-image: url("/css/img/bg4.jpg");
+    background-image: url("img/bg4.jpg");
 }
 
 #back5 {
 
-    background-image: url("/css/img/bg6.jpg");
+    background-image: url("img/bg6.jpg");
     height: 670px;
 }
 
