@@ -95,6 +95,10 @@ html {
     height: 100px;
 }
 
+.holeInput {
+    width: 50px
+}
+
 #back1 {
     background-image: url("img/bg1.jpg");
 }

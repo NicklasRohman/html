@@ -38,8 +38,8 @@
                 <div class="space text">
 
                     <div class="row">
-                        <form class="form-inline" onsubmit="openModal()" id="AddNewRoundForm">
-                            <button type="submit" class="btn btn-primary">Add New Round</button>
+                        <form class="form-inline" id="AddNewRoundForm" onsubmit="openModal()">
+                            <button class="btn btn-primary" type="submit">Add New Round</button>
                         </form>
                         <button class="btn btn-primary" type="button">Rounds</button>
                     </div>
@@ -71,29 +71,95 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <div class="modal fade" tabindex="-1" role="dialog" id="AddNewRoundModal">
+    <div class="modal fade" id="AddNewRoundModal" role="dialog" tabindex="-1">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Modal title</h4>
+                    <h4 class="modal-title">Register Round</h4>
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span
+                            aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    <p>One fine body&hellip;</p>
+                    <div class="row">
+                        <label> Hole 1 </label>
+                        <label> Hole 2 </label>
+                        <label> Hole 3 </label>
+                        <label> Hole 4 </label>
+                        <label> Hole 5 </label>
+                        <label> Hole 6 </label>
+                        <label> Hole 7 </label>
+                        <label> Hole 8 </label>
+                        <label> Hole 9 </label>
+                    </div>
+                    <div class="row">
+                        <input id="hole1" class="holeInput" max="20" min="1" type="number"
+                               value="4">
+                        <input id="hole2" class="holeInput" max="20" min="1" type="number"
+                               value="4">
+                        <input id="hole3" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole4" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole5" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole6" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole7" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole8" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole9" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+
+                    </div>
+                    <div class="row">
+                        <label> Hole 10 </label>
+                        <label> Hole 11 </label>
+                        <label> Hole 12 </label>
+                        <label> Hole 13 </label>
+                        <label> Hole 14 </label>
+                        <label> Hole 15 </label>
+                        <label> Hole 16 </label>
+                        <label> Hole 17 </label>
+                        <label> Hole 18 </label>
+                    </div>
+                    <div class="row">
+                        <input id="hole10" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole11" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole12" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole13" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole14" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole15" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole16" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole17" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+                        <input id="hole18" max="20" min="1" class="holeInput" type="number"
+                               value="4">
+
+                    </div>
                 </div>
+
+
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary">Save Round</button>
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Cancel</button>
+                    <button class="btn btn-primary" type="button">Save Round</button>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
     <script>
-    $('#AddNewRoundForm').on('submit', function(e){
-    $('#AddNewRoundModal').modal('show');
-    e.preventDefault();
-    });
+        $('#AddNewRoundForm').on('submit', function (e) {
+            $('#AddNewRoundModal').modal('show');
+            e.preventDefault();
+        });
     </script>
 
 </body>
