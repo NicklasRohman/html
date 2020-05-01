@@ -38,10 +38,14 @@
                 <div class="space text">
 
                     <div class="row">
-                        <form class="form-inline" id="AddNewRoundForm" onsubmit="openModal()">
-                            <button class="btn btn-primary" type="submit">Add New Round</button>
-                        </form>
-                        <button class="btn btn-primary" type="button">Rounds</button>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#AddNewRoundModal"> Add New Round
+                        </button>
+
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#roundModal"> All Rounds
+                        </button>
                     </div>
 
                     <div class="row">
@@ -70,14 +74,29 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <div class="modal fade" id="AddNewRoundModal" role="dialog" tabindex="-1">
-        <div class="modal-dialog" role="document">
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
             <div class="modal-content">
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="AddNewRoundModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">Register Round</h4>
                     <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span
                             aria-hidden="true">&times;</span></button>
                 </div>
+
+                <!-- Modal body -->
                 <div class="modal-body">
                     <div class="row">
                         <div class="col">
@@ -273,6 +292,7 @@
                     </div>
                 </div>
 
+                <!-- Modal footer -->
                 <div class="modal-footer">
                     <button class="btn btn-default" data-dismiss="modal" type="button">Cancel</button>
                     <button class="btn btn-primary" type="button">Save Round</button>
@@ -282,12 +302,30 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <script>
-        $('#AddNewRoundForm').on('submit', function (e) {
-            $('#AddNewRoundModal').modal('show');
-            e.preventDefault();
-        });
-    </script>
+    <!-- The Rounds Modal -->
+    <div class="modal" id="roundModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
